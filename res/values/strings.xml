@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QuestionAnswerActivity!</string>
+    <string name="app_name">QuestionAnswer</string>
+    <string name="rules">\
+    	To play, enter <i>y</i> for yes and <i>n</i> for no.\n
+    	<i>1</i> starts the game over.\n
+    	<i>0</i> finishes the game \n
+    	Any string containing a <i>?</i> rebranches (only enter this 
+    		when prompted to enter a question).\n
+    	Otherwise, it will believe the string is an animal and rebranch (so please stick to these inputs)</string>
+</resources>
