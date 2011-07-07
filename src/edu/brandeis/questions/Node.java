@@ -27,7 +27,6 @@ public abstract class Node {
 	/**@returns whether this question node has a no child*/
 	public abstract boolean hasNo();
 	
-	public abstract String geAnimal();
-	
+	/**@returns the Parent of this node*/
 	public abstract Node getParent();
 }

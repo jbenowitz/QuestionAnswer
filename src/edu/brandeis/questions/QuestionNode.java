@@ -78,12 +78,7 @@ public class QuestionNode extends Node{
 		return true;
 	}
 
-	@Override
-	public String geAnimal() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	/** @returns the parent of this node*/
 	@Override
 	public Node getParent() {
 		return this.parent;

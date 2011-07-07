@@ -74,11 +74,17 @@ public class AnimalNode extends Node{
 		return true;
 	}
 
-	@Override
-	public String geAnimal() {
+	/**
+	 * Gets the animal string set in this node.
+	 * 
+	 */
+	public String getAnimal() {
 		return animal;
 	}
 
+	/**
+	 * Returns the parent of this element (used during inserting nodes into tree)
+	 */
 	@Override
 	public Node getParent() {
 		return this.parent;
